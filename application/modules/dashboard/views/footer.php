@@ -3,6 +3,7 @@
         <div class="container">
             <h5>Hubungi Kami</h5>
             <a href="https://instagram.com/sayourkost?igshid=OGIzYTJhMTRmYQ=="><i class="fab fa-instagram fa-lg" style="color: #ffffff;"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=6281225118369"><i class="fab fa-whatsapp fa-lg" style="color: #ffffff;"></i></a>
         </div>
     </footer>
 </div>

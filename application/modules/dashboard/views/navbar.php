@@ -1,7 +1,10 @@
 <div class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #82CD47;">
         <div class="container">
-            <a class="navbar-brand" href="#">SayourKost</a>
+            <a class="navbar-brand" href="#">
+                <img src="<?= base_url() ?>assets/img/app/logo.png" alt="Logo" width="50" style="background-color: white;border-radius: 100px;">
+                SayourKost
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
