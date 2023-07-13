@@ -40,26 +40,50 @@
           <img src="<?= base_url() ?>assets/img/app/sayurpack.png" width="300">
         </center>
         <h5>Sayur Bening Pack</h5>
-        <h6 style="color: rgb(130,205,71);">Rp 12.0000,00</h6>
+        <h6 style="color: rgb(130,205,71);">Rp 12.000,00</h6>
         <div class="row m-1">
-          <button class="col-lg-2 btn" type="button" style="background-color: rgb(130,205,71);"><i class="fa fa-shopping-cart"></i></button>
-          <button class="col-lg-10 btn" type="button" style="background-color: rgb(130,205,71);">Beli Sekarang</button>
+          <button class="col-lg-2 btn cart" data-nama="Sayur-Bening-Pack" type="button" style="background-color: rgb(130,205,71);"><i class="fa fa-shopping-cart"></i></button>
+          <button class="col-lg-10 btn beli" data-nama="Sayur-Bening-Pack" type="button" style="background-color: rgb(130,205,71);">Beli Sekarang</button>
         </div>
       </div>
     </div>
     <div class="col-lg-3">
       <div class="container-fluid" style="background-color: #E5FFCE;height: 70vh;">
-
+        <center>
+          <img src="<?= base_url() ?>assets/img/app/brokolipack.png" width="300">
+        </center>
+        <h5>Brokoli Pack</h5>
+        <h6 style="color: rgb(130,205,71);">Rp 10.000,00</h6>
+        <div class="row m-1">
+          <button class="col-lg-2 btn cart" data-nama="Brokoli-Pack" type="button" style="background-color: rgb(130,205,71);"><i class="fa fa-shopping-cart"></i></button>
+          <button class="col-lg-10 btn beli" data-nama="Brokoli-Pack" type="button" style="background-color: rgb(130,205,71);">Beli Sekarang</button>
+        </div>
       </div>
     </div>
     <div class="col-lg-3">
       <div class="container-fluid" style="background-color: #E5FFCE;height: 70vh;">
-
+        <center>
+          <img src="<?= base_url() ?>assets/img/app/parepack.png" width="300">
+        </center>
+        <h5>Pare Pack</h5>
+        <h6 style="color: rgb(130,205,71);">Rp 9.000,00</h6>
+        <div class="row m-1">
+          <button class="col-lg-2 btn cart" data-nama="Pare-Pack" type="button" style="background-color: rgb(130,205,71);"><i class="fa fa-shopping-cart"></i></button>
+          <button class="col-lg-10 btn beli" data-nama="Pare-Pack" type="button" style="background-color: rgb(130,205,71);">Beli Sekarang</button>
+        </div>
       </div>
     </div>
     <div class="col-lg-3">
       <div class="container-fluid" style="background-color: #E5FFCE;height: 70vh;">
-
+        <center>
+          <img src="<?= base_url() ?>assets/img/app/bakwanpack.png" width="300">
+        </center>
+        <h5>Bakwan Pack</h5>
+        <h6 style="color: rgb(130,205,71);">Rp 8.000,00</h6>
+        <div class="row m-1">
+          <button class="col-lg-2 btn cart" data-nama="Bakwan-Pack" type="button" style="background-color: rgb(130,205,71);"><i class="fa fa-shopping-cart"></i></button>
+          <button class="col-lg-10 btn beli" data-nama="Bakwan-Pack" type="button" style="background-color: rgb(130,205,71);">Beli Sekarang</button>
+        </div>
       </div>
     </div>
 
@@ -84,7 +108,7 @@
       <div class="container-fluid" style="background-color: #E5FFCE;height: 25vh;">
         <div class="row">
           <div class="col-sm-3">
-              <img class="m-4" src="<?= base_url() ?>assets/img/app/salsabilla.png" width="100">
+            <img class="m-4" src="<?= base_url() ?>assets/img/app/salsabilla.png" width="100">
           </div>
           <div class="col-sm-2"></div>
           <div class="col-sm-7">
@@ -99,7 +123,7 @@
       <div class="container-fluid" style="background-color: #E5FFCE;height: 25vh;">
         <div class="row">
           <div class="col-sm-3">
-              <img class="m-4" src="<?= base_url() ?>assets/img/app/jefri.png" width="100">
+            <img class="m-4" src="<?= base_url() ?>assets/img/app/jefri.png" width="100">
           </div>
           <div class="col-sm-2"></div>
           <div class="col-sm-7">
@@ -114,7 +138,7 @@
       <div class="container-fluid" style="background-color: #E5FFCE;height: 25vh;">
         <div class="row">
           <div class="col-sm-3">
-              <img class="m-4" src="<?= base_url() ?>assets/img/app/refal.png" width="100">
+            <img class="m-4" src="<?= base_url() ?>assets/img/app/refal.png" width="100">
           </div>
           <div class="col-sm-2"></div>
           <div class="col-sm-7">
@@ -131,7 +155,7 @@
       <div class="container-fluid" style="background-color: #E5FFCE;height: 25vh;">
         <div class="row">
           <div class="col-sm-3">
-              <img class="m-4" src="<?= base_url() ?>assets/img/app/bryan.png" width="100">
+            <img class="m-4" src="<?= base_url() ?>assets/img/app/bryan.png" width="100">
           </div>
           <div class="col-sm-2"></div>
           <div class="col-sm-7">
@@ -146,7 +170,7 @@
       <div class="container-fluid" style="background-color: #E5FFCE;height: 25vh;">
         <div class="row">
           <div class="col-sm-3">
-              <img class="m-4" src="<?= base_url() ?>assets/img/app/pevita.png" width="100">
+            <img class="m-4" src="<?= base_url() ?>assets/img/app/pevita.png" width="100">
           </div>
           <div class="col-sm-2"></div>
           <div class="col-sm-7">
@@ -161,7 +185,7 @@
       <div class="container-fluid" style="background-color: #E5FFCE;height: 25vh;">
         <div class="row">
           <div class="col-sm-3">
-              <img class="m-4" src="<?= base_url() ?>assets/img/app/ciatlin.png" width="100">
+            <img class="m-4" src="<?= base_url() ?>assets/img/app/ciatlin.png" width="100">
           </div>
           <div class="col-sm-2"></div>
           <div class="col-sm-7">
@@ -174,4 +198,26 @@
     </div>
   </div>
 </div>
-<?php $this->load->view('footer'); ?>
+<?php $this->load->view('footer'); ?>\
+<script>
+    $(document).ready(function(){
+        $('.cart').on('click',function(e){
+            e.preventDefault();
+            $.post('<?= site_url('dashboard/home/pesan') ?>', {
+                    nama: $(this).attr('data-nama')
+                },
+                function(data) {
+                    console.log(data);
+                }, 'json');
+        });
+        $('.beli').on('click',function(e){
+            e.preventDefault();
+            $.post('<?= site_url('dashboard/home/pesan') ?>', {
+                    nama: $(this).attr('data-nama')
+                },
+                function(data) {
+                    window.location.replace('<?= site_url('dashboard/home/cart') ?>');
+                }, 'json');
+        });
+    });
+</script>

@@ -13,13 +13,18 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="<?= site_url('dashboard/home/catalog') ?>">
                             <i class="fas fa-th-large"></i> Kategori
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= site_url('dashboard/home/aboutus') ?>">
                             <i class="fas fa-info-circle"></i> Tentang Kami
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= site_url('dashboard/home/cart') ?>">
+                            <i class="fas fa-shopping-cart"></i> Cart
                         </a>
                     </li>
                 </ul>
